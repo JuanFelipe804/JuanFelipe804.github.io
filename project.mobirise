@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Panamapets",
-    "currentPage": "index.html",
+    "currentPage": "panamapets.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -28,10 +28,10 @@
     "versionPublish": "3.12.1"
   },
   "pages": {
-    "index.html": {
+    "panamapets.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Anuncios",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -43,6 +43,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "header1-8",
           "_params": {
             "parallax": true,
@@ -65,12 +70,7 @@
           },
           "title": "Panama Pets",
           "text": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Promos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Publicar</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Anuncios</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-info-outline btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Publicar</a>"
         },
         {
           "_tags": [
@@ -238,6 +238,11 @@
             "Theme"
           ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
           "_anchor": "form1-a",
           "_params": {
             "labelsColor": "#232323",
@@ -283,12 +288,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>"
         }
       ]
     }
