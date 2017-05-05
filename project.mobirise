@@ -24,7 +24,7 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -190,26 +190,19 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "form2",
-          "_anchor": "form2-9",
+          "_name": "form1",
+          "_anchor": "form1-d",
           "_params": {
-            "paddingTop": 3,
+            "labelsColor": "#232323",
+            "paddingTop": "3",
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#000000",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -218,20 +211,43 @@
             "showSubTitle": true
           },
           "title": "Publicar",
-          "subtitle": "Publica gratis tu anuncio&nbsp;",
+          "subtitle": "Publica gratis tu anuncio ",
           "form": {
             "action": "wokapps.gacol@gmail.com",
             "alerts": {
               "success": "Gracias, en breve recibirá un correo electronico, por favor responder para continuar con el proceso"
             },
             "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
               "email": {
                 "title": "Email",
-                "customTitle": "Enter Your Email Address..."
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            ".mbr-section-title": {
+              "color": "#f3c649"
+            }
+          }
         }
       ]
     }
