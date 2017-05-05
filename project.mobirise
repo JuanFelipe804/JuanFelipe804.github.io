@@ -246,6 +246,9 @@
             },
             ".mbr-section-title": {
               "color": "#f3c649"
+            },
+            "SMALL": {
+              "color": "#ffffff"
             }
           }
         }
